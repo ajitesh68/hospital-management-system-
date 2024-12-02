@@ -87,7 +87,7 @@ public class Reception extends JFrame{
         btn5.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e){
-                
+                new ALL_Patient_Info();
             }
         });
 
@@ -98,7 +98,7 @@ public class Reception extends JFrame{
         btn6.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e){
-                
+                new patient_discharge();
             }
         });
 
@@ -145,7 +145,9 @@ public class Reception extends JFrame{
                 
             }
         });
-        
+
+
+        setUndecorated(true);
         setSize(1950,1090);
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
@@ -153,7 +155,7 @@ public class Reception extends JFrame{
     }
 
     public static void main(String[] args){
-        new Reception();
+        new patient_discharge();
         
     }
     
