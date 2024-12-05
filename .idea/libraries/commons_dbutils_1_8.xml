@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commons-dbutils-1.8">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../Downloads/commons-dbutils-1.8.1-bin" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
